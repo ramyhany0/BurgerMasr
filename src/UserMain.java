@@ -24,7 +24,7 @@ public class UserMain {
         // Get the user's choice
         System.out.print("Please select the sandwich you want (enter the number): ");
         int sandwichChoice = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine(); // newline character
 
         sandwich = menu.getSandwich(sandwichChoice);
 
