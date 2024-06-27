@@ -1,4 +1,4 @@
-// AdminMain.java
+
 import java.util.Scanner;
 
 public class AdminMain {
@@ -26,7 +26,7 @@ public class AdminMain {
             System.out.print("Enter your choice: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); //  newline character
 
             switch (choice) {
                 case 1:
@@ -75,7 +75,7 @@ public class AdminMain {
         String name = scanner.nextLine();
         System.out.print("Enter new sandwich price: ");
         double price = scanner.nextDouble();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine(); //  newline character
         menu.getSandwiches().add(new Sandwich(name, price));
         System.out.println("New sandwich added successfully!");
     }
@@ -86,7 +86,7 @@ public class AdminMain {
         String name = scanner.nextLine();
         System.out.print("Enter new addition price: ");
         double price = scanner.nextDouble();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine(); //  newline character
         additions.getAdditions().add(new Addition(name, price));
         System.out.println("New addition added successfully!");
     }
